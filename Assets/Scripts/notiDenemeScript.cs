@@ -20,7 +20,7 @@ public class notiDenemeScript : MonoBehaviour
         }
         else
         {
-            Debug.LogError("mesajCevap not found in the scene!");
+            
         }
     }
 }
