@@ -9,6 +9,7 @@ public class mesajCevap : MonoBehaviour
     public TMP_InputField playerInputField;
     public GameObject firstPanelObject;
     public int playerPoints = 10;
+    //aaa
 
     private float timer = 10.0f;
     private bool timerActive = false;
