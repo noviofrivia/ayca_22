@@ -30,8 +30,8 @@ public class Tara_Dialogue : MonoBehaviour
         }
         else
         {
-            currentIndex = 0; // Reset to the first sentence if you want to loop
-            sentenceText.text = sentences[currentIndex];
+            //currentIndex = 0; // Reset to the first sentence if you want to loop
+            //sentenceText.text = sentences[currentIndex];
         }
     }
 }
