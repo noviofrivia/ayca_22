@@ -4549,8 +4549,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   antivirusMesaj: {fileID: 1966362373}
-  chatbarKapat: {fileID: 0}
-  inputfieldKapat: {fileID: 0}
+  chatbarKapat: {fileID: 1982033561}
+  inputfieldKapat: {fileID: 1982033561}
 --- !u!114 &1749665948
 MonoBehaviour:
   m_ObjectHideFlags: 0
