@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class login_manager : MonoBehaviour
 {
@@ -62,11 +63,13 @@ public class login_manager : MonoBehaviour
                 if(!set_last_password_one_time)
                 {
                     set_last_password_one_time=true;
-                    mail_correctText = "d";
+                    mail_correctText = "SayMyName@gmail.com";
                     password_correctText = "ASIODJFNLOKSdfjnk";
                 }
                 break;
         }
+
+        
     }
 
     public void Click_Login_Button()
@@ -104,6 +107,10 @@ public class login_manager : MonoBehaviour
                 pikachu_test.SetActive(true);
                 wrong_login_text_gameobject.SetActive(false);
                 break;
+            case 3:
+                yield return new WaitForSeconds(1f);
+                SceneManager.LoadScene("ChatKopya");
+                break;
         }
         
     }
@@ -121,8 +128,12 @@ public class login_manager : MonoBehaviour
         }
         else
         {
-            wrong_login_text_gameobject.SetActive(true);
-            Debug.Log("Incorrect! The entered text does not match the correct text.");
+            if(login_info_count != 3)
+            {
+                wrong_login_text_gameobject.SetActive(true);
+                Debug.Log("Incorrect! The entered text does not match the correct text.");
+            }
+           
         }
     }
 }

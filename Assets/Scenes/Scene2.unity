@@ -815,33 +815,44 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3544443407801647632, guid: 2c75fbe863ec6214d92b9acaadd675cb, type: 3}
       propertyPath: sentences.Array.size
-      value: 4
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3544443407801647632, guid: 2c75fbe863ec6214d92b9acaadd675cb, type: 3}
       propertyPath: sentences.Array.data[0]
-      value: I've managed to get rid of Ayca_22.
+      value: Hello, allow me to introduce myself. I am Tara, your antivirus program.
       objectReference: {fileID: 0}
     - target: {fileID: 3544443407801647632, guid: 2c75fbe863ec6214d92b9acaadd675cb, type: 3}
       propertyPath: sentences.Array.data[1]
-      value: You did a good job defending your computer.
+      value: As I said before, you got a virus in your computer.
       objectReference: {fileID: 0}
     - target: {fileID: 3544443407801647632, guid: 2c75fbe863ec6214d92b9acaadd675cb, type: 3}
       propertyPath: sentences.Array.data[2]
-      value: We make a pretty good team don't you think? :)
+      value: Unfortunately, this is no ordinary virus.
       objectReference: {fileID: 0}
     - target: {fileID: 3544443407801647632, guid: 2c75fbe863ec6214d92b9acaadd675cb, type: 3}
       propertyPath: sentences.Array.data[3]
-      value: Your computer is now free!
+      value: Ayca_22 is a hard nut to crack
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544443407801647632, guid: 2c75fbe863ec6214d92b9acaadd675cb, type: 3}
+      propertyPath: sentences.Array.data[4]
+      value: But you are in luck because I am here. :)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544443407801647632, guid: 2c75fbe863ec6214d92b9acaadd675cb, type: 3}
+      propertyPath: sentences.Array.data[5]
+      value: First, I need to scan your computer so I can proceed with the removal.
       objectReference: {fileID: 0}
     - target: {fileID: 3544443407801647632, guid: 2c75fbe863ec6214d92b9acaadd675cb, type: 3}
       propertyPath: sentences.Array.data[6]
-      value: It's going to take some time. And until the scan is completed, you have
+      value: It's going to take some time, and until the scan is completed, you have
         to defend your computer manually.
       objectReference: {fileID: 0}
     - target: {fileID: 3544443407801647632, guid: 2c75fbe863ec6214d92b9acaadd675cb, type: 3}
       propertyPath: sentences.Array.data[7]
-      value: It's going to take some time. And until the scan is completed, you have
-        to defend your computer manually.
+      value: Don't worry, we will work as a team and defeat Ayca_22 together!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544443407801647632, guid: 2c75fbe863ec6214d92b9acaadd675cb, type: 3}
+      propertyPath: sentences.Array.data[8]
+      value: Now go ahaed and start the scan.
       objectReference: {fileID: 0}
     - target: {fileID: 3756867607042878310, guid: 2c75fbe863ec6214d92b9acaadd675cb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

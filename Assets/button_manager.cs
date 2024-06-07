@@ -30,7 +30,7 @@ public class button_manager : MonoBehaviour
     public void Hemen_Ara_Button()
     {
         GameObject.Find("click_sound").GetComponent<AudioSource>().Play(0);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Scene2");
     }
 
     public void Ayca_22_Notification_Button()

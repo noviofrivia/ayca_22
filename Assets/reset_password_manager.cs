@@ -27,6 +27,7 @@ public class reset_password_manager : MonoBehaviour
         if(password_enteredText == password2_enteredText)
         {
             game_manager.GetComponent<login_manager>().password_correctText = password_enteredText;
+            game_manager.GetComponent<login_manager>().login_info_count = 3;
         }
 
         else
